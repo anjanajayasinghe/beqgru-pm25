@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "BEQ-GRU: code for short-term PM2.5 forecasting with emphasis on extreme events in Sri Lanka"
+version: 1.0.0
+license: MIT
+type: software
+authors:
+  - family-names: Jayasinghe
+    given-names: "J. M. V. Anjana B."
+    affiliation: "Department of Statistics, Faculty of Science, University of Colombo, Sri Lanka"
+  - family-names: Tilakaratne
+    given-names: "Chandima D."
+    affiliation: "Department of Statistics, Faculty of Science, University of Colombo, Sri Lanka"
+keywords:
+  - PM2.5 forecasting
+  - quantile regression
+  - gated recurrent unit
+  - extreme events
+  - early warning
+abstract: >-
+  Code for the paper "Bidirectional enhanced quantile gated recurrent unit for
+  short-term forecasting of PM2.5 with emphasis on extreme events in Sri Lanka".
+  It covers SAITS imputation, the VAR, Random Forest, XGBoost and recurrent
+  benchmarks, the proposed BEQ-GRU trained with a quantile loss at tau = 0.95,
+  hyperparameter tuning, predictor selection, SHAP analysis and evaluation.

@@ -1,0 +1,7 @@
+# CEA data may not be redistributed: never commit the station files
+data/*.csv
+results/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/

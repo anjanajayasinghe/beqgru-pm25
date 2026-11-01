@@ -1,0 +1,7 @@
+# Separate environment for scripts/01_impute_saits.py (PyPOTS runs on PyTorch).
+# Tested with these versions; keep it apart from the TensorFlow environment.
+numpy
+pandas
+scikit-learn
+torch
+pypots==1.5
